@@ -6,5 +6,26 @@
 <body style="background:#0b1020;color:white;font-family:sans-serif;text-align:center;padding-top:100px;">
   <h1>You Matter ❤️</h1>
   <p>This site exists because someone cares about you.</p>
-</body>
+  <br><br>
+
+<button onclick="showMessage()" style="
+padding:12px 20px;
+border:none;
+border-radius:12px;
+background:#4f7cff;
+color:white;
+font-size:16px;
+cursor:pointer;
+">
+Read This
+</button>
+
+<p id="message" style="margin-top:20px;font-size:18px;"></p>
+
+<script>
+function showMessage() {
+  document.getElementById('message').innerHTML =
+  "Someone losing feelings does not erase your worth.";
+}
+</script>
 </html>
